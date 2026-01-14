@@ -1,13 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useEffect } from 'react';
+import HeroSection from '@/components/sections/HeroSection';
+import ChallengeSection from '@/components/sections/ChallengeSection';
+import DataHarmonySection from '@/components/sections/DataHarmonySection';
+import CognitiveCoreSection from '@/components/sections/CognitiveCoreSection';
+import InsightNavigatorSection from '@/components/sections/InsightNavigatorSection';
+import InterventionsSection from '@/components/sections/InterventionsSection';
+import ImpactSection from '@/components/sections/ImpactSection';
 
 const Index = () => {
+  useEffect(() => {
+    // Add dark class to ensure dark mode
+    document.documentElement.classList.add('dark');
+  }, []);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="bg-background text-foreground overflow-x-hidden">
+      <HeroSection />
+      <ChallengeSection />
+      <DataHarmonySection />
+      <CognitiveCoreSection />
+      <InsightNavigatorSection />
+      <InterventionsSection />
+      <ImpactSection />
+    </main>
   );
 };
 
