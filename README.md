@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+## 📌 Agile Milestone Tracking Table
 
-## Project info
+| Milestone No | Time Slot | Task (with Tech Stack) | Updation by Guide | Time Taken | Remarks |
+|-------------|----------|------------------------|------------------|-----------|---------|
+| 1 | 9:45 | Website generation (Lovable, HTML, CSS) | No | 50 minutes | — |
+| 2 | 10:45 | Problem formulation & requirement analysis | No | 30 minutes | — |
+| 3 | 11:30 | Frontend UI design (HTML, CSS) | No | 30 minutes | — |
+| 4 | 12:15 | ML pipeline design & feature engineering | No | 30 minutes | — |
+| 5 | 1:00 | Model selection, training & evaluation | No | 30 minutes | — |
+| 6 | 1:45 | System integration & documentation | No | 30 minutes | — |
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📘 Project Title
+**AI-Based Early Dropout Risk Prediction System**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ❗ Problem Statement
+Educational institutions lack data-driven mechanisms to identify students at risk of dropping out at an early stage. Existing approaches rely on manual monitoring or post-failure indicators, which are reactive, non-scalable, and ineffective for timely intervention.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 Proposed Solution
+This project proposes an AI-driven predictive system that analyzes student engagement, academic performance, and behavioral indicators to estimate dropout risk. A supervised machine learning model is trained on historical student data to classify students into risk categories, enabling proactive intervention by educators.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧠 System Architecture & Workflow
+1. Data collection from academic and engagement sources  
+2. Data preprocessing and feature engineering  
+3. Model training and validation  
+4. Dropout risk prediction  
+5. Insight visualization via dashboards  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠 Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Frontend:** HTML, CSS  
+- **Backend:** Python  
+- **ML Frameworks:** Scikit-learn  
+- **Data Processing:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
+- **Platform:** Lovable  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🤖 AI Tools & Models Used
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **Logistic Regression / Random Forest** – Dropout classification  
+- **Predictive Analytics** – Pattern recognition in engagement data  
+- **Data Visualization Libraries** – Interpretability and insights  
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📊 Model Evaluation Metrics
+- Accuracy  
+- Precision & Recall  
+- F1-Score  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## ⭐ Key Technical Features
+- Supervised ML-based dropout prediction  
+- Feature-driven risk scoring  
+- Interpretable model outputs  
+- Scalable and modular architecture  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🚀 Future Scope
+- Integration of deep learning models  
+- Real-time data ingestion pipelines  
+- Personalized intervention recommendation engine  
+- Cloud deployment and API-based access  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📝 Notes
+- Developed using an **Agile, milestone-based approach**
+- Modular design enables extensibility
+- Optimized for **hackathons and academic evaluations**
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+*End of README*
