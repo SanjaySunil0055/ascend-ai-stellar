@@ -6,6 +6,7 @@ import CognitiveCoreSection from '@/components/sections/CognitiveCoreSection';
 import InsightNavigatorSection from '@/components/sections/InsightNavigatorSection';
 import InterventionsSection from '@/components/sections/InterventionsSection';
 import ImpactSection from '@/components/sections/ImpactSection';
+import ChatWidget from '@/components/ChatWidget';
 
 const Index = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const Index = () => {
       <InsightNavigatorSection />
       <InterventionsSection />
       <ImpactSection />
+      <ChatWidget />
     </main>
   );
 };
